@@ -1,0 +1,25 @@
+{
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/www.js",
+  "bin": {
+    "flower": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www",
+    "apidoc": "apidoc -i ./src/router/ -o ./doc/"
+  },
+  "author": "Melon",
+  "license": "ISC",
+  "devDependencies": {
+    "apidoc": "^0.28.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "qrcode": "^1.4.4",
+    "tencentcloud-sdk-nodejs": "^4.0.175"
+  }
+}

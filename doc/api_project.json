@@ -1,0 +1,16 @@
+{
+  "name": "037-project-flower",
+  "version": "1.0.0",
+  "description": "花卉项目接口文档",
+  "title": "037-project-flower",
+  "url": "http://localhost:3000/",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2021-08-03T06:23:07.121Z",
+    "url": "https://apidocjs.com",
+    "version": "0.28.1"
+  }
+}
